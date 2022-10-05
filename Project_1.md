@@ -22,7 +22,7 @@ Design statement: I will to design and make a program for a client who is a trad
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. Show the total income
+4. Show the wallet balance
 5. Password
 6. Show a graph by category
 # Criteria B: Design
