@@ -27,6 +27,17 @@ Polkadot will enable a completely decentralized web where users are in control. 
 5. Password
 6. Show a graph by category
 
+## Test Plan
+| Description                           | Type           | Inputs                                                                                                                                                                                                                                                                                           | Outputs                                                                                                                                                                            |
+|---------------------------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Login & Menu                          | Unit test      | 1. Run the Project1.py  2. Input "sam" as Username & "234" as Password                                                                                                                                                                                                                           | If the username and password matches what's stored in the user.csv file. It will transition user to the landing page which shows a menu of options                                 |
+| View basic description of Crypto      | Unit test      | 1. User put in "1" into prompt following the menu                                                                                                                                                                                                                                                | Print the basic description of the crypto that the ledger is based on                                                                                                              |
+| Enter, Withdraw, Record a Transaction | Unit test      |  1. User put in "2" into prompt following the menu  2. User inputs a number from 1 to 3 to select the function they want(enter, withdraw or record) or 4 to return to the main menu   3.User inputs amount of crypto changed(e.g : 1)   4. User inputs the date of transaction(e.g : 2022-07-09) |                                                                                                                                                                                    |
+| View wallet balance                   | Unit test      | 1. User put in "3" into prompt following the menu                                                                                                                                                                                                                                                | Prints the balance of the wallet from the wallet.csv and reference the current price of the crypto and prints that as well                                                         |
+| View Spending Graph                   | Unit test      | 1. User put in "4" into prompt following the menu                                                                                                                                                                                                                                                | Program will query the yahoo finance platform through the plugin yfinance and print data such as 52 week highs/lows and overall gains/losses with reference to the wallet.csv file |
+| Number input validation               | Usability test | 1. User input invalid characters(e.g : abc) into the prompt when asked to put in number(either int/float)                                                                                                                                                                                        | Program prompts user that the input is invalid and prompts user to input again.                                                                                                    |
+| Login System                          | Usability test | 1. User inputs wrong username(e.g: bob)/password(e.g : dabuilder) when logging in                                                                                                                                                                                                                | Program prompts user to retry logging in.                                                                                                                                          |
+
 
 # Criteria B: Design
 ## System Diagram
@@ -49,6 +60,17 @@ Polkadot will enable a completely decentralized web where users are in control. 
 ![](Assets/CryptoWallet_Graph.jpg)
 
 *Fig.4* **Flow diagram of the graph function**
+
+## Record of Tasks
+| Task No | Planned Action             | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|---------|----------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram      | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Oct 2                  | B         |
+| 2       | Interview with the Client  | To discuss client's needs and define success criteria                                    | 5min          | Sep 23                 | A         |
+| 3       | Code the Menu              | To have menu items and title written on the screen                                       | 20min         | Sep 23                 | C         |
+| 4       | Code authentication system | A tested program to protect the application using a password with encryption             | 60min         | Sep 27                 | C         |
+| 5       | Code Main Functions        | A function base of the program                                                           | 6hrs          | Oct 9                  | C         |
+| 7       | Form Test Plan             | To a flexible test plan formed                                                           | 30min         | Oct 9                  | B         |
+| 8       | Draw Flow Diagrams         | To have completed the flow diagrams for the functions of the program                     | 1hr           | Oct 9                  | B         |
 
 
 # Criteria C: Development
