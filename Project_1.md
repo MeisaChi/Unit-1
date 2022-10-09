@@ -36,17 +36,17 @@ Polkadot will enable a completely decentralized web where users are in control. 
 ## Flow Diagrams
 
 ### Login
-![](CryptoWallet_Login.jpg)
+![](Assets/CryptoWallet_Login.jpg)
 
 *Fig.2* **Flow diagram of the login function**
 
 ### Wallet Balance
-![](CryptoWallet_Balance.jpg)
+![](Assets/CryptoWallet_Balance.jpg)
 
 *Fig.3* **Flow diagram of the wallet balance function**
 
 ### Graph
-![](CryptoWallet_Graph.jpg)
+![](Assets/CryptoWallet_Graph.jpg)
 
 *Fig.4* **Flow diagram of the graph function**
 
