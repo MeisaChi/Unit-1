@@ -6,16 +6,17 @@ Ms. Sato is a local trader who is interested in the emerging market of cryptocur
 
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
 
-An example of the data store is
-| Date | Discription | Category | Amount |
-|------|-------------|----------|--------|
-| Sep 23 2022 | bought a house | Expenses | 10BTC |
-| Sep 24 2022 | food for house celebration | Food | 0.00001 BTC |
 
 ## Proposed Solution
 Design statement: I will to design and make a program for a client who is a trader. The program will be about crypro currencies and is constructed using the software pycharm. It will take 3 weeks to make and will be evaluated according to the criteria A and B.
 
+Justify the tools/structure of your solution: I will be using Python for this solution because it provides easy data scraping functions and various libraries which could help in providing useful statistics to Mr Sato
+
+I will be using Polkadot as my currency for this solution.
+
 ### Polkadot currency
+Polkadot will enable a completely decentralized web where users are in control. Polkadot is built to connect private and consortium chains, public and permissionless networks, oracles, and future technologies that are yet to be created. Polkadot facilitates an internet where independent blockchains can exchange information and transactions in a trustless way via the Polkadot relay chain. Polkadot makes it easier than ever to create and connect decentralized applications, services, and institutions. By empowering innovators to build better solutions, we seek to free society from its reliance on a broken web where its large institutions can’t violate our trust.
+(https://polkadot.network/about/)
 
 
 ## Success Criteria
@@ -25,10 +26,31 @@ Design statement: I will to design and make a program for a client who is a trad
 4. Show the wallet balance
 5. Password
 6. Show a graph by category
-# Criteria B: Design
 
+
+# Criteria B: Design
 ## System Diagram
+![](CryptoWallet_SysD.jpg)
+*Fig.1* **System diagram of this program**
 
 ## Flow Diagrams
 
-## Record of Tasks
+### Login
+![](CryptoWallet_Login.jpg)
+
+*Fig.2* **Flow diagram of the login function**
+
+### Wallet Balance
+![](CryptoWallet_Balance.jpg)
+
+*Fig.3* **Flow diagram of the wallet balance function**
+
+### Graph
+![](CryptoWallet_Graph.jpg)
+
+*Fig.4* **Flow diagram of the graph function**
+
+
+# Criteria C: Development
+
+## 
